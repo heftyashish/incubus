@@ -5,6 +5,15 @@ Incubus::Application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'static_pages#home'
   get 'home' => 'static_pages#home'
+  get 'stip' => 'static_pages#stip'
+  get 'wtip' => 'static_pages#wtip'
+  get 'corporate_timings' => 'static_pages#corporate_timings'
+
+  get 'careers' => 'static_pages#careers'
+  get 'services' => 'static_pages#services'
+  # get 'home' => 'static_pages#home'
+  # get 'home' => 'static_pages#home'
+  # get 'home' => 'static_pages#home'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
