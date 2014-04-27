@@ -19,7 +19,8 @@ Incubus::Application.routes.draw do
   get 'corporate_facts' => 'static_pages#corporate_facts'
   get 'rnd' => 'static_pages#rnd'
   get 'sustainability' => 'static_pages#sustainability'
-  get 'contact' => 'static_pages#contact'    
+  get 'contact' => 'static_pages#contact'
+  post 'register' => 'static_pages#register'    
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
