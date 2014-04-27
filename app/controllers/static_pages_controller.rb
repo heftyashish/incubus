@@ -24,4 +24,40 @@ class StaticPagesController < ApplicationController
     
   end
 
+  def maintenance
+    
+  end
+
+  def website_development
+    
+  end
+
+  def online_marketing
+    
+  end
+
+  def cms
+    
+  end
+
+  def management
+    
+  end
+
+  def corporate_facts
+    
+  end
+
+  def rnd
+    
+  end
+
+  def sustainability
+      
+  end  
+
+  def contact
+    
+  end
+
 end

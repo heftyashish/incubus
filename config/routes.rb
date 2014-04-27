@@ -11,9 +11,15 @@ Incubus::Application.routes.draw do
 
   get 'careers' => 'static_pages#careers'
   get 'services' => 'static_pages#services'
-  # get 'home' => 'static_pages#home'
-  # get 'home' => 'static_pages#home'
-  # get 'home' => 'static_pages#home'
+  get 'maintenance' => 'static_pages#maintenance'
+  get 'website_development' => 'static_pages#website_development'
+  get 'online_marketing' => 'static_pages#online_marketing'
+  get 'cms' => 'static_pages#cms'
+  get 'management' => 'static_pages#management'
+  get 'corporate_facts' => 'static_pages#corporate_facts'
+  get 'rnd' => 'static_pages#rnd'
+  get 'sustainability' => 'static_pages#sustainability'
+  get 'contact' => 'static_pages#contact'    
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
